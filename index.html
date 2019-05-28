@@ -326,10 +326,10 @@ var BLOG = { ROOT: '/', SHARE: true, REWARD: false };
     var OriginTitile = document.title, titleTime;
     document.addEventListener('visibilitychange', function() {
         if (document.hidden) {
-            document.title = '嫌です！';
+            document.title = '(つェ⊂)';
             clearTimeout(titleTime);
         } else {
-            document.title = '(つェ⊂)お兄ちゃん、大好き!';
+            document.title = '我最帅!';
             titleTime = setTimeout(function() {
                 document.title = OriginTitile;
             },2000);
